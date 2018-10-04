@@ -16,33 +16,61 @@ Just now it can detect via ping, UPnP (serial planned).
 
 ### Automatically Discovered
 
+- Bose Soundtouch
+- Broadlink
 - Chromecast
 - Daikin climate control
+- deConz
+- Denon /Marantz
+- DoorBird
+- ebus
+- ekey
+- energymanager (E.ON/Solarwatt)
+- Epson Stylus PX830
+- Fakeroku
+- FHEM
+- FireTV
 - Fronius
+- G-Homa plugs
+- Harmony
+- Home Assistant
 - Homematic CCU (hm-rpc, hm-rega)
+- Homepilot
 - Philips HUE
 - InfluxDB
+- KLF-200
+- KNX
+- Landroid
+- LGTV
+- Lightify
+- Loxone
+- Lupusec
+- MAX! Cube
 - MegaD
+- Miele
+- Mi Home Smarthome
+- MiLight bridge (v6)
+- Musiccast
 - Mysensors USB/Serial (9600, 38400, 57600, 115200)
 - Nut
-- Ping
-- RFLink (Serial 57600baud)
-- Sonos
-- SQL (MySQL, MSSQL, PostgreSQL)
-- TR-064
-- UPnP
-- Z-wave USB (Tested with Aeon Labs)
-- Landroid
-- SamsungTV
-- Miele
-- Yamaha
-- Lightify
-- Wifilight
-- FireTV
-- KNX
-- Squeezebox
 - OpenHAB
-- Broadlink
+- Ping
+- Proxmox
+- RFLink (Serial 57600baud)
+- SamsungTV
+- Sonnen
+- Sonos
+- Stiebel-Eltron/Tecalor ISG (plus)
+- SQL (MySQL, MSSQL, PostgreSQL)
+- Squeezebox
+- stiebel-isg
+- TR-064
+- Trådfri
+- UPnP
+- Wifilight
+- Yamaha
+- Yeelight
+- Z-wave USB (Tested with Aeon Labs)
 
 ### Offered as additional adapters
 - Cloud
@@ -57,22 +85,17 @@ Just now it can detect via ping, UPnP (serial planned).
 - artnet? (Bluefox)
 - B-Control-Em? (Bluefox)
 - cul / maxcul (Bluefox)
-- epson_stylus_px830 (pix)
-- harmony (pmant) / fakeroku (pmant)
-- fhem (Bluefox)
 - Foobar200 (Instalator)
 - fritzbox (ruhr70)
-- homepilot (Pix)
 - km200 (frankjoke)
 - kodi (instalator)
-- lgtv (smundt)
 - megaesp (ausHaus)
 - modbus (Bluefox)
 - mpd (instalator)
 - mqtt/mqtt-client (Bluefox)
 - onkyo (Bluefox)
 - owfs (Bluefox)
-- rpi2 (if ioBroker run on Raspberry)
+- rpi2 (if ioBroker runs on Raspberry)
 - rwe-smarthome (PArns)
 - s7 (Bluefox)
 - smartmeter (Apollon77)
@@ -80,9 +103,50 @@ Just now it can detect via ping, UPnP (serial planned).
 - wolf (smiling-jack)
 - xs1 (frankjoke)
 
-
 ## Changelog
-### 0.4.3 (2017-05-17)
+### 1.2.4 (2018-09-22)
+* (bluefox) Small GUI update was made
+* (rg-engineering) Added ebus
+
+### 1.2.3 (2018-09-13)
+* (bluefox) Proxmox was fixed
+* (unltdnetworx) solarwatt
+* (Michael Schroeder) klf200
+* (bluefox) Use OpenStreetMap
+* (MeisterTR) yeelight
+* (unltdnetworx) stiebel-isg
+* (BuZZy1337) doorbird
+
+### 1.2.1 (2018-07-28)
+* (bluefox) New adapter added: DENON
+
+### 1.1.1 (2018-03-27)
+* (bluefox) New adapter added: ekey, Home Assistant, FHEM
+
+### 1.1.0 (2018-01-23)
+* (Apollon77) Upgrade Serialport Library
+
+### 1.0.2 (2018-01-13)
+* (bluefox) ready for admin3
+
+### 1.0.1 (2017-12-28)
+* Fix Epson Stylus PX830
+* Add Bose Soundtouch
+
+### 1.0.0 (2017-10-18)
+* (pix) Add Epson Stylus PX830
+* (pix) Add Homepilot
+* (Samuel Weibel) Loxone
+
+### 0.4.5 (2017-08-25)
+* (Apollon77) Fixes in mihome
+
+### 0.4.4 (2017-06-01)
+* (bluefox) Add lgtv
+* (bluefox) disable serial by default. It must be explicit enabled every time
+* (bluefox) add mihome
+
+### 0.4.2 (2017-05-17)
 * (bluefox) Add discovery methods selection
 
 ### 0.4.0 (2017-05-01)
@@ -123,7 +187,7 @@ Just now it can detect via ping, UPnP (serial planned).
 
 The MIT License (MIT)
 
-Copyright (c) 2017, bluefox <dogafox@gmail.com>
+Copyright (c) 2017-2018, bluefox <dogafox@gmail.com>
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
